@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(58, 56, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.card{
+    background-color: #f1f3f8;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #fff,5px 5px 12px rgb(0,0,0,0.18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.button{
+    margin-top: 20px;
+    height: 70%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.display{
+    background-color: #f1f3f8;
+    height: 30%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 2px 3px 11px rgb(167, 167, 167),5px 5px 12px #fff;
+}
+.display input{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    text-align: end;
+    font-size: 70px;
+    outline: none;
+    color: rgb(32, 32, 32);
+
+}
+.tombol_kanan{
+    background-color: rgb(225, 221, 225);
+    box-shadow: inset 2px 3px 11px rgb(167, 167, 167),5px 5px 12px #fff;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+}
+.tombol_kiri{
+    background-color: #f1f3f8;
+    width: 75%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.tombol{
+    box-shadow: inset 5px 5px 12px #fff,5px 5px 12px rgb(0,0,0,0.18);
+    background-color: #f1f3f8;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(57, 57, 57);
+    font-weight: bold;
+    font-size: 15px;
+}
+.tombol:hover{
+    transform: scale(0.9);
+}
